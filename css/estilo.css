@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: #f4f2ec url(../img/fundo.png) repeat-x;
     font: 12px "Luciada Grande", "Lucida Sans Unicode", Arial, sans-serif;
