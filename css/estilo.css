@@ -50,8 +50,9 @@ header {
 
 nav ul {
     list-style: none;
-    margin: 20px;
+    margin-bottom: 20px;
     display: flex;
+
 
 
 
@@ -84,6 +85,38 @@ nav ul li a:hover {
 
 }
 
+#postagens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article {
+    width: 310px;
+    height: 190px;
+    margin: 15px;
+}
+
+article ul li {
+    list-style: none;
+}
+
+
+
+
+
+
+#história {
+    width: 310px;
+    height: 190px;
+    padding: 10px;
+
+
+
+}
+
 aside {
     width: 350px;
     background: white;
@@ -92,15 +125,46 @@ aside {
 
 }
 
+footer {
+    background-color: #262317;
+    width: auto;
+    margin: 0px auto;
+    padding: 20px 0 30px 0;
+    height: 200px;
+    text-align: center;
+
+}
+
+footer p a {
+    padding: 2px 10px;
+    font-size: 20px;
+
+
+}
+
+footer p {
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+
+}
+
 /* Fim principal */
 
 /* Inicio estilização do aside e sections*/
 
 section#visita {
-    background: #cdcb81;
+    background: #cdc7b5;
     padding: 10px 27px 27px 27px;
     margin-top: 10px;
 
+}
+
+article h3 {
+    color: #227115;
+    font-size: 1.0em;
+    margin: 10px;
+    text-transform: uppercase;
 }
 
 #visita h4 {
@@ -111,7 +175,7 @@ section#visita {
 }
 
 #galeria {
-    background-color: #ada484;
+    background-color: #ede5df;
 
 }
 
